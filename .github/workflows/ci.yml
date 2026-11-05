@@ -22,7 +22,7 @@ jobs:
             - name: Install dependencies
               run: npm ci
             - name: Check formatting
-              run: npx format:check
+              run: npm format:check
 
             - name: Run tests
               run: npm test
